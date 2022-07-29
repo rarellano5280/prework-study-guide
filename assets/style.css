@@ -3,8 +3,7 @@
     padding: 0;
 }
 
-header,
-footer {
+header {
     width: 100%;
     height: 120px;
     background-color: #00CED1;
@@ -14,9 +13,19 @@ footer {
 	font-family: 'Josefin Sans', sans-serif;
 }
 
+footer {
+    width: 100%;
+    height: 120px;
+    background-color: #00CED1;
+    color: rgb(241, 239, 239);
+    text-transform: uppercase;
+    font-style: italic;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
 h1 {
     text-align: center;
-	margin: 1em 0 0.5em 0;
+    margin: 1em 0 0.5em 0;
 	font-weight: 100;
 	text-transform: uppercase;
 	color: #F0FFFF;
